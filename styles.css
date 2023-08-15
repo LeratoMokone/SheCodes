@@ -1,0 +1,58 @@
+body {
+  border: 100px;
+  border-radius: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container {
+  border: 1px solid rgb(155, 197, 251) 74.6%;
+  border-radius: 4px;
+  padding: 10px;
+  margin: auto;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(205, 225, 249) 74.6%
+  );
+}
+.weather {
+  padding: 5px;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+  color: rgb(81, 81, 96);
+}
+h2 {
+  font-size: 50px;
+  font-weight: 100px;
+}
+p {
+  padding: 10px;
+  margin: 5px;
+  font-size: large;
+  font-weight: 100;
+  color: rgb(40, 41, 74);
+}
+.predictions {
+  display: block;
+  margin: 0;
+  position: relative;
+  bottom: 120px;
+  left: 550px;
+}
+
+.comdition {
+  padding-top: 10px;
+}
+form {
+  position: fixed;
+  top: 50px;
+  right: 450px;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  bottom: 40px;
+  left: 200px;
+}
